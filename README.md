@@ -15,3 +15,12 @@ docker run -d --name=dabbler \
 ## Triggers
 
 * `POST /dabbler/0.0.0/travis/<meta-data-here>` for travis CI targets
+
+
+## Build
+<!-- TODO: setup virtualenv -->
+
+```
+pip install -Ur requirements.txt
+docker build -t bign8/dabbler .
+```

@@ -1,5 +1,0 @@
-#! /bin/sh
-
-# TODO: stand up virtualenv
-pip install -Ur requirements.txt
-docker build -t bign8/dabbler .
