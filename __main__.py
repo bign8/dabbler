@@ -30,4 +30,4 @@ def index(slug):
 
 
 if __name__ == "__main__":
-    bottle.run(host='localhost', port=8080, dev=True)
+    bottle.run(host='0.0.0.0', port=8080, dev=True)

@@ -7,7 +7,7 @@ Dabbler is a tool that exposes some REST APIs that allow the dynamic reloading o
 ```
 docker run -d --name=dabbler \
   --restart=always \
-  -p <exposed_port_here>:80 \
+  -p <exposed_port_here>:8080 \
   -v /var/run/docker.sock:/var/run/docker.sock \
   bign8/dabbler
 ```
